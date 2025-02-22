@@ -8,8 +8,11 @@ These notes are taken from analysis of book "Practical TLA+ Planning Driven Deve
 - TLA forces you to be specific when specifying you needs.
 
 - **Invariant** - something true in every state of the system. Always holds true.
+- **Temporal properties** - patterns that must hold across the entire execution of the system.
 
 - To check if our specification works, we need to create a **model** a simulation we want to run.
+
+- Stuttering - when process simply stops.
 
 ## Dictionary
 
@@ -18,12 +21,22 @@ These notes are taken from analysis of book "Practical TLA+ Planning Driven Deve
 [] - Function. Similar to dictionaries and mappings in programming.
 For each Value in a given set, it maps an output value.
 
-Invariant == Bool - defines invariants that must be true in every system state.
-
 \A - for all. "Universal quantification".
+
+value' - value prime, represents new value after action is performed.
+
+### Operators
 
 == - definition operator. Associates identifier with an expression.
 
-/\ - logical AND condition.
+### Logical Conditions
 
-value' - value prime, represents new value after action is performed.
+/\ - AND.
+
+### Temporal operators
+
+[] - Always. []P means that P is true in every state of the behavior.
+<> - Eventually. <>P means that P eventually is true in some future state.
+~> - Leads to. P ~> Q means that whenever P becomes true, Q will eventually become true.
+=> - Implies. Expresses relationships?
+<>[] - Eventually-Always. The end of an algorithm given equation eventually is always true.
