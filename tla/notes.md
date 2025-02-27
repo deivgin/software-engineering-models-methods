@@ -22,6 +22,7 @@ These notes are taken from analysis of book "Practical TLA+ Planning Driven Deve
 For each Value in a given set, it maps an output value.
 
 \A - for all. "Universal quantification".
+\E - exists.
 
 value' - value prime, represents new value after action is performed.
 
@@ -40,3 +41,12 @@ value' - value prime, represents new value after action is performed.
 ~> - Leads to. P ~> Q means that whenever P becomes true, Q will eventually become true.
 => - Implies. Expresses relationships?
 <>[] - Eventually-Always. The end of an algorithm given equation eventually is always true.
+
+## Words
+
+DOMAIN - specifies list indexes
+LAMBDA -
+
+## Functions
+
+Seq() -
