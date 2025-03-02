@@ -14,27 +14,32 @@ These notes are taken from analysis of book "Practical TLA+ Planning Driven Deve
 
 - Stuttering - when process simply stops.
 
-## Dictionary
+## Propositional logic
+
+/\ - and
+\/ - or
+~ - negation
+=> - implication
+<=> - equivalence
+
+## Sets
 
 {} - Set. Unordered collection of things.
 
-[] - Function. Similar to dictionaries and mappings in programming.
-For each Value in a given set, it maps an output value.
+\in - membership
+\notion - non-membership
+\subseteq - subset
+\union - union
+\intersect - intersection
+\ - set difference
+SUBSET - power set
 
-\A - for all. "Universal quantification".
-\E - exists.
+## Predicate logic
 
-value' - value prime, represents new value after action is performed.
+\A - universal quantifier
+\E - existential quantifier
 
-### Operators
-
-== - definition operator. Associates identifier with an expression.
-
-### Logical Conditions
-
-/\ - AND.
-
-### Temporal operators
+## Temporal logic
 
 [] - Always. []P means that P is true in every state of the behavior.
 <> - Eventually. <>P means that P eventually is true in some future state.
@@ -42,11 +47,14 @@ value' - value prime, represents new value after action is performed.
 => - Implies. Expresses relationships?
 <>[] - Eventually-Always. The end of an algorithm given equation eventually is always true.
 
-## Words
+## Dictionary
+
+[] - Function. Similar to dictionaries and mappings in programming.
+For each Value in a given set, it maps an output value.
+
+value' - value prime, represents new value after action is performed.
 
 DOMAIN - specifies list indexes
 LAMBDA -
-
-## Functions
 
 Seq() -
