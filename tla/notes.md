@@ -1,6 +1,4 @@
-# Notes for learning TLA+
-
-These notes are taken from analysis of book "Practical TLA+ Planning Driven Development" by Hillel Wayne.
+# Notes on TLA+
 
 ## Basics
 
