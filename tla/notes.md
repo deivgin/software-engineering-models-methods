@@ -19,6 +19,7 @@
 ~ - negation
 => - implication
 <=> - equivalence
+\leq - less or equal
 
 ## Sets
 
@@ -45,6 +46,14 @@ SUBSET - power set
 => - Implies. Expresses relationships?
 <>[] - Eventually-Always. The end of an algorithm given equation eventually is always true.
 
+## Sequence operators
+
+Seq(S) - set of all sequences of elements of the set S
+Head(s) - first element of the sequence s
+Tail(s) - tail of sequence s, meaning s with its head removed
+Append(s, e) - add element e to the tail of s
+Len(s) - the amount of elements in sequence s
+
 ## Dictionary
 
 [] - Function. Similar to dictionaries and mappings in programming.
@@ -54,5 +63,3 @@ value' - value prime, represents new value after action is performed.
 
 DOMAIN - specifies list indexes
 LAMBDA -
-
-Seq() -
